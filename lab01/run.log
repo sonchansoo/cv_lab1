@@ -1,0 +1,922 @@
+2025-09-30 15:18:20 [INFO] 전체 처리 이미지: 4장
+2025-09-30 15:18:20 [INFO] read_image | out_shape=(356, 616, 3) out_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/input/samples/bus.jpg
+2025-09-30 15:18:20 [INFO] opencv_grayscale | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8
+2025-09-30 15:18:20 [INFO] numpy_grayscale | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__gray.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__gray_np.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__gray_diff.png
+2025-09-30 15:18:20 [INFO] opencv_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=64
+2025-09-30 15:18:20 [INFO] numpy_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=64
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__th_64.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__th_64_np.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__th_64_diff.png
+2025-09-30 15:18:20 [INFO] opencv_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=128
+2025-09-30 15:18:20 [INFO] numpy_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=128
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__th_128.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__th_128_np.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__th_128_diff.png
+2025-09-30 15:18:20 [INFO] opencv_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=200
+2025-09-30 15:18:20 [INFO] numpy_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=200
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__th_200.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__th_200_np.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__th_200_diff.png
+2025-09-30 15:18:20 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(712, 1232, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=nearest
+2025-09-30 15:18:20 [INFO] numpy_resize_nearest | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(712, 1232, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_2.0x2.0_nearest.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_2.0x2.0_nearest_np.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_2.0x2.0_nearest_diff.png
+2025-09-30 15:18:20 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(712, 1232, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=linear
+2025-09-30 15:18:20 [INFO] numpy_resize_bilinear | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(712, 1232, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_2.0x2.0_linear.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_2.0x2.0_bilinear_np.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_2.0x2.0_linear_vs_bilinear_diff.png
+2025-09-30 15:18:20 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(1068, 1848, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=nearest
+2025-09-30 15:18:20 [INFO] numpy_resize_nearest | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(1068, 1848, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_3.0x3.0_nearest.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_3.0x3.0_nearest_np.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_3.0x3.0_nearest_diff.png
+2025-09-30 15:18:20 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(1068, 1848, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=linear
+2025-09-30 15:18:20 [INFO] numpy_resize_bilinear | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(1068, 1848, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_3.0x3.0_linear.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_3.0x3.0_bilinear_np.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_3.0x3.0_linear_vs_bilinear_diff.png
+2025-09-30 15:18:20 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(534, 924, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=nearest
+2025-09-30 15:18:20 [INFO] numpy_resize_nearest | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(534, 924, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_1.5x1.5_nearest.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_1.5x1.5_nearest_np.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_1.5x1.5_nearest_diff.png
+2025-09-30 15:18:20 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(534, 924, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=linear
+2025-09-30 15:18:20 [INFO] numpy_resize_bilinear | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(534, 924, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_1.5x1.5_linear.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_1.5x1.5_bilinear_np.png
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_1.5x1.5_linear_vs_bilinear_diff.png
+2025-09-30 15:18:20 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(267, 462, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=nearest
+2025-09-30 15:18:20 [INFO] numpy_resize_nearest | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(267, 462, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:18:20 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_0.75x0.75_nearest.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_0.75x0.75_nearest_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_0.75x0.75_nearest_diff.png
+2025-09-30 15:18:21 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(267, 462, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=linear
+2025-09-30 15:18:21 [INFO] numpy_resize_bilinear | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(267, 462, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_0.75x0.75_linear.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_0.75x0.75_bilinear_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_0.75x0.75_linear_vs_bilinear_diff.png
+2025-09-30 15:18:21 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(267, 462, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=area
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_0.75x0.75_area.png
+2025-09-30 15:18:21 [INFO] opencv_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | code=0
+2025-09-30 15:18:21 [INFO] numpy_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | axis=0
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__flip_0.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__flip_0_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__flip_0_diff.png
+2025-09-30 15:18:21 [INFO] opencv_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | code=1
+2025-09-30 15:18:21 [INFO] numpy_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | axis=1
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__flip_1.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__flip_1_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__flip_1_diff.png
+2025-09-30 15:18:21 [INFO] opencv_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | code=-1
+2025-09-30 15:18:21 [INFO] numpy_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | axis=-1
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__flip_-1.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__flip_-1_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__flip_-1_diff.png
+2025-09-30 15:18:21 [INFO] opencv_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(616, 356, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:18:21 [INFO] numpy_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(616, 356, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot90.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot90_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot90_diff.png
+2025-09-30 15:18:21 [INFO] opencv_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:18:21 [INFO] numpy_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot180.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot180_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot180_diff.png
+2025-09-30 15:18:21 [INFO] opencv_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(616, 356, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:18:21 [INFO] numpy_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(616, 356, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot270.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot270_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot270_diff.png
+2025-09-30 15:18:21 [INFO] opencv_rotate_fixed | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=linear
+2025-09-30 15:18:21 [INFO] numpy_rotate_fixed | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=bilinear
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot33_fixed_linear.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot33_fixed_bilinear_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot33_fixed_diff.png
+2025-09-30 15:18:21 [INFO] opencv_rotate_expand | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(635, 711, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=linear
+2025-09-30 15:18:21 [INFO] numpy_rotate_expand | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(635, 711, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=bilinear
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(635, 711, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot33_expand_linear.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(635, 711, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot33_expand_bilinear_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(635, 711, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot33_expand_diff.png
+2025-09-30 15:18:21 [INFO] opencv_rotate_fixed | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=linear
+2025-09-30 15:18:21 [INFO] numpy_rotate_fixed | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=bilinear
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot-30_fixed_linear.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot-30_fixed_bilinear_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot-30_fixed_diff.png
+2025-09-30 15:18:21 [INFO] opencv_rotate_expand | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(617, 712, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=linear
+2025-09-30 15:18:21 [INFO] numpy_rotate_expand | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(617, 712, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=bilinear
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(617, 712, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot-30_expand_linear.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(617, 712, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot-30_expand_bilinear_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(617, 712, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot-30_expand_diff.png
+2025-09-30 15:18:21 [INFO] opencv_hist_gray | in_shape=(356, 616) in_dtype=uint8
+2025-09-30 15:18:21 [INFO] opencv_hist_bgr | in_shape=(356, 616, 3) in_dtype=uint8
+2025-09-30 15:18:21 [INFO] read_image | out_shape=(384, 601, 3) out_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/input/samples/soccer.jpg
+2025-09-30 15:18:21 [INFO] opencv_grayscale | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8
+2025-09-30 15:18:21 [INFO] numpy_grayscale | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__gray.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__gray_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__gray_diff.png
+2025-09-30 15:18:21 [INFO] opencv_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=64
+2025-09-30 15:18:21 [INFO] numpy_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=64
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__th_64.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__th_64_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__th_64_diff.png
+2025-09-30 15:18:21 [INFO] opencv_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=128
+2025-09-30 15:18:21 [INFO] numpy_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=128
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__th_128.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__th_128_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__th_128_diff.png
+2025-09-30 15:18:21 [INFO] opencv_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=200
+2025-09-30 15:18:21 [INFO] numpy_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=200
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__th_200.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__th_200_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__th_200_diff.png
+2025-09-30 15:18:21 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(768, 1202, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=nearest
+2025-09-30 15:18:21 [INFO] numpy_resize_nearest | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(768, 1202, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_2.0x2.0_nearest.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_2.0x2.0_nearest_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_2.0x2.0_nearest_diff.png
+2025-09-30 15:18:21 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(768, 1202, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=linear
+2025-09-30 15:18:21 [INFO] numpy_resize_bilinear | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(768, 1202, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_2.0x2.0_linear.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_2.0x2.0_bilinear_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_2.0x2.0_linear_vs_bilinear_diff.png
+2025-09-30 15:18:21 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(1152, 1803, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=nearest
+2025-09-30 15:18:21 [INFO] numpy_resize_nearest | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(1152, 1803, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_3.0x3.0_nearest.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_3.0x3.0_nearest_np.png
+2025-09-30 15:18:21 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_3.0x3.0_nearest_diff.png
+2025-09-30 15:18:22 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(1152, 1803, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=linear
+2025-09-30 15:18:22 [INFO] numpy_resize_bilinear | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(1152, 1803, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_3.0x3.0_linear.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_3.0x3.0_bilinear_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_3.0x3.0_linear_vs_bilinear_diff.png
+2025-09-30 15:18:22 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(576, 902, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=nearest
+2025-09-30 15:18:22 [INFO] numpy_resize_nearest | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(576, 902, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_1.5x1.5_nearest.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_1.5x1.5_nearest_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_1.5x1.5_nearest_diff.png
+2025-09-30 15:18:22 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(576, 902, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=linear
+2025-09-30 15:18:22 [INFO] numpy_resize_bilinear | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(576, 902, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_1.5x1.5_linear.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_1.5x1.5_bilinear_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_1.5x1.5_linear_vs_bilinear_diff.png
+2025-09-30 15:18:22 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(288, 451, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=nearest
+2025-09-30 15:18:22 [INFO] numpy_resize_nearest | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(288, 451, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_0.75x0.75_nearest.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_0.75x0.75_nearest_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_0.75x0.75_nearest_diff.png
+2025-09-30 15:18:22 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(288, 451, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=linear
+2025-09-30 15:18:22 [INFO] numpy_resize_bilinear | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(288, 451, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_0.75x0.75_linear.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_0.75x0.75_bilinear_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_0.75x0.75_linear_vs_bilinear_diff.png
+2025-09-30 15:18:22 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(288, 451, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=area
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_0.75x0.75_area.png
+2025-09-30 15:18:22 [INFO] opencv_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | code=0
+2025-09-30 15:18:22 [INFO] numpy_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | axis=0
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__flip_0.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__flip_0_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__flip_0_diff.png
+2025-09-30 15:18:22 [INFO] opencv_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | code=1
+2025-09-30 15:18:22 [INFO] numpy_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | axis=1
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__flip_1.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__flip_1_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__flip_1_diff.png
+2025-09-30 15:18:22 [INFO] opencv_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | code=-1
+2025-09-30 15:18:22 [INFO] numpy_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | axis=-1
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__flip_-1.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__flip_-1_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__flip_-1_diff.png
+2025-09-30 15:18:22 [INFO] opencv_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(601, 384, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:18:22 [INFO] numpy_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(601, 384, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot90.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot90_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot90_diff.png
+2025-09-30 15:18:22 [INFO] opencv_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:18:22 [INFO] numpy_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot180.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot180_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot180_diff.png
+2025-09-30 15:18:22 [INFO] opencv_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(601, 384, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:18:22 [INFO] numpy_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(601, 384, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot270.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot270_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot270_diff.png
+2025-09-30 15:18:22 [INFO] opencv_rotate_fixed | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=linear
+2025-09-30 15:18:22 [INFO] numpy_rotate_fixed | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=bilinear
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot33_fixed_linear.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot33_fixed_bilinear_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot33_fixed_diff.png
+2025-09-30 15:18:22 [INFO] opencv_rotate_expand | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(650, 714, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=linear
+2025-09-30 15:18:22 [INFO] numpy_rotate_expand | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(650, 714, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=bilinear
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(650, 714, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot33_expand_linear.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(650, 714, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot33_expand_bilinear_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(650, 714, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot33_expand_diff.png
+2025-09-30 15:18:22 [INFO] opencv_rotate_fixed | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=linear
+2025-09-30 15:18:22 [INFO] numpy_rotate_fixed | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=bilinear
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot-30_fixed_linear.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot-30_fixed_bilinear_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot-30_fixed_diff.png
+2025-09-30 15:18:22 [INFO] opencv_rotate_expand | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(634, 713, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=linear
+2025-09-30 15:18:22 [INFO] numpy_rotate_expand | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(634, 713, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=bilinear
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(634, 713, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot-30_expand_linear.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(634, 713, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot-30_expand_bilinear_np.png
+2025-09-30 15:18:22 [INFO] save_image | in_shape=(634, 713, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot-30_expand_diff.png
+2025-09-30 15:18:22 [INFO] opencv_hist_gray | in_shape=(384, 601) in_dtype=uint8
+2025-09-30 15:18:22 [INFO] opencv_hist_bgr | in_shape=(384, 601, 3) in_dtype=uint8
+2025-09-30 15:18:23 [INFO] read_image | out_shape=(731, 1300, 3) out_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/input/personal/image1.png
+2025-09-30 15:18:23 [INFO] opencv_grayscale | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8
+2025-09-30 15:18:23 [INFO] numpy_grayscale | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__gray.png
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__gray_np.png
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__gray_diff.png
+2025-09-30 15:18:23 [INFO] opencv_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=64
+2025-09-30 15:18:23 [INFO] numpy_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=64
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__th_64.png
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__th_64_np.png
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__th_64_diff.png
+2025-09-30 15:18:23 [INFO] opencv_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=128
+2025-09-30 15:18:23 [INFO] numpy_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=128
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__th_128.png
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__th_128_np.png
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__th_128_diff.png
+2025-09-30 15:18:23 [INFO] opencv_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=200
+2025-09-30 15:18:23 [INFO] numpy_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=200
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__th_200.png
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__th_200_np.png
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__th_200_diff.png
+2025-09-30 15:18:23 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1462, 2600, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=nearest
+2025-09-30 15:18:23 [INFO] numpy_resize_nearest | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1462, 2600, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_2.0x2.0_nearest.png
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_2.0x2.0_nearest_np.png
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_2.0x2.0_nearest_diff.png
+2025-09-30 15:18:23 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1462, 2600, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=linear
+2025-09-30 15:18:23 [INFO] numpy_resize_bilinear | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1462, 2600, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_2.0x2.0_linear.png
+2025-09-30 15:18:23 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_2.0x2.0_bilinear_np.png
+2025-09-30 15:18:24 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_2.0x2.0_linear_vs_bilinear_diff.png
+2025-09-30 15:18:24 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(2193, 3900, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=nearest
+2025-09-30 15:18:24 [INFO] numpy_resize_nearest | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(2193, 3900, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:18:24 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_3.0x3.0_nearest.png
+2025-09-30 15:18:24 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_3.0x3.0_nearest_np.png
+2025-09-30 15:18:24 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_3.0x3.0_nearest_diff.png
+2025-09-30 15:18:24 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(2193, 3900, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=linear
+2025-09-30 15:18:25 [INFO] numpy_resize_bilinear | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(2193, 3900, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:18:25 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_3.0x3.0_linear.png
+2025-09-30 15:18:25 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_3.0x3.0_bilinear_np.png
+2025-09-30 15:18:25 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_3.0x3.0_linear_vs_bilinear_diff.png
+2025-09-30 15:18:26 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1096, 1950, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=nearest
+2025-09-30 15:18:26 [INFO] numpy_resize_nearest | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1096, 1950, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_1.5x1.5_nearest.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_1.5x1.5_nearest_np.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_1.5x1.5_nearest_diff.png
+2025-09-30 15:18:26 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1096, 1950, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=linear
+2025-09-30 15:18:26 [INFO] numpy_resize_bilinear | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1096, 1950, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_1.5x1.5_linear.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_1.5x1.5_bilinear_np.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_1.5x1.5_linear_vs_bilinear_diff.png
+2025-09-30 15:18:26 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(548, 975, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=nearest
+2025-09-30 15:18:26 [INFO] numpy_resize_nearest | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(548, 975, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_0.75x0.75_nearest.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_0.75x0.75_nearest_np.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_0.75x0.75_nearest_diff.png
+2025-09-30 15:18:26 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(548, 975, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=linear
+2025-09-30 15:18:26 [INFO] numpy_resize_bilinear | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(548, 975, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_0.75x0.75_linear.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_0.75x0.75_bilinear_np.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_0.75x0.75_linear_vs_bilinear_diff.png
+2025-09-30 15:18:26 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(548, 975, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=area
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_0.75x0.75_area.png
+2025-09-30 15:18:26 [INFO] opencv_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | code=0
+2025-09-30 15:18:26 [INFO] numpy_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | axis=0
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__flip_0.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__flip_0_np.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__flip_0_diff.png
+2025-09-30 15:18:26 [INFO] opencv_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | code=1
+2025-09-30 15:18:26 [INFO] numpy_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | axis=1
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__flip_1.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__flip_1_np.png
+2025-09-30 15:18:26 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__flip_1_diff.png
+2025-09-30 15:18:27 [INFO] opencv_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | code=-1
+2025-09-30 15:18:27 [INFO] numpy_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | axis=-1
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__flip_-1.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__flip_-1_np.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__flip_-1_diff.png
+2025-09-30 15:18:27 [INFO] opencv_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1300, 731, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:18:27 [INFO] numpy_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1300, 731, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot90.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot90_np.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot90_diff.png
+2025-09-30 15:18:27 [INFO] opencv_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:18:27 [INFO] numpy_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot180.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot180_np.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot180_diff.png
+2025-09-30 15:18:27 [INFO] opencv_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1300, 731, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:18:27 [INFO] numpy_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1300, 731, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot270.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot270_np.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot270_diff.png
+2025-09-30 15:18:27 [INFO] opencv_rotate_fixed | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=linear
+2025-09-30 15:18:27 [INFO] numpy_rotate_fixed | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=bilinear
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot33_fixed_linear.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot33_fixed_bilinear_np.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot33_fixed_diff.png
+2025-09-30 15:18:27 [INFO] opencv_rotate_expand | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1322, 1489, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=linear
+2025-09-30 15:18:27 [INFO] numpy_rotate_expand | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1322, 1489, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=bilinear
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(1322, 1489, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot33_expand_linear.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(1322, 1489, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot33_expand_bilinear_np.png
+2025-09-30 15:18:27 [INFO] save_image | in_shape=(1322, 1489, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot33_expand_diff.png
+2025-09-30 15:18:27 [INFO] opencv_rotate_fixed | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=linear
+2025-09-30 15:18:28 [INFO] numpy_rotate_fixed | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=bilinear
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot-30_fixed_linear.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot-30_fixed_bilinear_np.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot-30_fixed_diff.png
+2025-09-30 15:18:28 [INFO] opencv_rotate_expand | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1284, 1492, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=linear
+2025-09-30 15:18:28 [INFO] numpy_rotate_expand | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1284, 1492, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=bilinear
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(1284, 1492, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot-30_expand_linear.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(1284, 1492, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot-30_expand_bilinear_np.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(1284, 1492, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot-30_expand_diff.png
+2025-09-30 15:18:28 [INFO] opencv_hist_gray | in_shape=(731, 1300) in_dtype=uint8
+2025-09-30 15:18:28 [INFO] opencv_hist_bgr | in_shape=(731, 1300, 3) in_dtype=uint8
+2025-09-30 15:18:28 [INFO] read_image | out_shape=(864, 1536, 3) out_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/input/personal/image2.png
+2025-09-30 15:18:28 [INFO] opencv_grayscale | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8
+2025-09-30 15:18:28 [INFO] numpy_grayscale | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__gray.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__gray_np.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__gray_diff.png
+2025-09-30 15:18:28 [INFO] opencv_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=64
+2025-09-30 15:18:28 [INFO] numpy_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=64
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__th_64.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__th_64_np.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__th_64_diff.png
+2025-09-30 15:18:28 [INFO] opencv_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=128
+2025-09-30 15:18:28 [INFO] numpy_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=128
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__th_128.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__th_128_np.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__th_128_diff.png
+2025-09-30 15:18:28 [INFO] opencv_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=200
+2025-09-30 15:18:28 [INFO] numpy_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=200
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__th_200.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__th_200_np.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__th_200_diff.png
+2025-09-30 15:18:28 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1728, 3072, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=nearest
+2025-09-30 15:18:28 [INFO] numpy_resize_nearest | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1728, 3072, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_2.0x2.0_nearest.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_2.0x2.0_nearest_np.png
+2025-09-30 15:18:28 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_2.0x2.0_nearest_diff.png
+2025-09-30 15:18:28 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1728, 3072, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=linear
+2025-09-30 15:18:29 [INFO] numpy_resize_bilinear | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1728, 3072, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:18:29 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_2.0x2.0_linear.png
+2025-09-30 15:18:29 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_2.0x2.0_bilinear_np.png
+2025-09-30 15:18:29 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_2.0x2.0_linear_vs_bilinear_diff.png
+2025-09-30 15:18:29 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(2592, 4608, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=nearest
+2025-09-30 15:18:29 [INFO] numpy_resize_nearest | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(2592, 4608, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:18:29 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_3.0x3.0_nearest.png
+2025-09-30 15:18:30 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_3.0x3.0_nearest_np.png
+2025-09-30 15:18:30 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_3.0x3.0_nearest_diff.png
+2025-09-30 15:18:30 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(2592, 4608, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=linear
+2025-09-30 15:18:31 [INFO] numpy_resize_bilinear | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(2592, 4608, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:18:31 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_3.0x3.0_linear.png
+2025-09-30 15:18:31 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_3.0x3.0_bilinear_np.png
+2025-09-30 15:18:31 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_3.0x3.0_linear_vs_bilinear_diff.png
+2025-09-30 15:18:32 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1296, 2304, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=nearest
+2025-09-30 15:18:32 [INFO] numpy_resize_nearest | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1296, 2304, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_1.5x1.5_nearest.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_1.5x1.5_nearest_np.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_1.5x1.5_nearest_diff.png
+2025-09-30 15:18:32 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1296, 2304, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=linear
+2025-09-30 15:18:32 [INFO] numpy_resize_bilinear | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1296, 2304, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_1.5x1.5_linear.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_1.5x1.5_bilinear_np.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_1.5x1.5_linear_vs_bilinear_diff.png
+2025-09-30 15:18:32 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(648, 1152, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=nearest
+2025-09-30 15:18:32 [INFO] numpy_resize_nearest | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(648, 1152, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_0.75x0.75_nearest.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_0.75x0.75_nearest_np.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_0.75x0.75_nearest_diff.png
+2025-09-30 15:18:32 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(648, 1152, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=linear
+2025-09-30 15:18:32 [INFO] numpy_resize_bilinear | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(648, 1152, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_0.75x0.75_linear.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_0.75x0.75_bilinear_np.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_0.75x0.75_linear_vs_bilinear_diff.png
+2025-09-30 15:18:32 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(648, 1152, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=area
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_0.75x0.75_area.png
+2025-09-30 15:18:32 [INFO] opencv_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | code=0
+2025-09-30 15:18:32 [INFO] numpy_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | axis=0
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__flip_0.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__flip_0_np.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__flip_0_diff.png
+2025-09-30 15:18:32 [INFO] opencv_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | code=1
+2025-09-30 15:18:32 [INFO] numpy_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | axis=1
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__flip_1.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__flip_1_np.png
+2025-09-30 15:18:32 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__flip_1_diff.png
+2025-09-30 15:18:32 [INFO] opencv_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | code=-1
+2025-09-30 15:18:32 [INFO] numpy_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | axis=-1
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__flip_-1.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__flip_-1_np.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__flip_-1_diff.png
+2025-09-30 15:18:33 [INFO] opencv_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1536, 864, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:18:33 [INFO] numpy_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1536, 864, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot90.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot90_np.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot90_diff.png
+2025-09-30 15:18:33 [INFO] opencv_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:18:33 [INFO] numpy_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot180.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot180_np.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot180_diff.png
+2025-09-30 15:18:33 [INFO] opencv_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1536, 864, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:18:33 [INFO] numpy_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1536, 864, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot270.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot270_np.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot270_diff.png
+2025-09-30 15:18:33 [INFO] opencv_rotate_fixed | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=linear
+2025-09-30 15:18:33 [INFO] numpy_rotate_fixed | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=bilinear
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot33_fixed_linear.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot33_fixed_bilinear_np.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot33_fixed_diff.png
+2025-09-30 15:18:33 [INFO] opencv_rotate_expand | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1562, 1759, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=linear
+2025-09-30 15:18:33 [INFO] numpy_rotate_expand | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1562, 1759, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=bilinear
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(1562, 1759, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot33_expand_linear.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(1562, 1759, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot33_expand_bilinear_np.png
+2025-09-30 15:18:33 [INFO] save_image | in_shape=(1562, 1759, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot33_expand_diff.png
+2025-09-30 15:18:34 [INFO] opencv_rotate_fixed | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=linear
+2025-09-30 15:18:34 [INFO] numpy_rotate_fixed | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=bilinear
+2025-09-30 15:18:34 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot-30_fixed_linear.png
+2025-09-30 15:18:34 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot-30_fixed_bilinear_np.png
+2025-09-30 15:18:34 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot-30_fixed_diff.png
+2025-09-30 15:18:34 [INFO] opencv_rotate_expand | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1517, 1763, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=linear
+2025-09-30 15:18:34 [INFO] numpy_rotate_expand | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1517, 1763, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=bilinear
+2025-09-30 15:18:34 [INFO] save_image | in_shape=(1517, 1763, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot-30_expand_linear.png
+2025-09-30 15:18:34 [INFO] save_image | in_shape=(1517, 1763, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot-30_expand_bilinear_np.png
+2025-09-30 15:18:34 [INFO] save_image | in_shape=(1517, 1763, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot-30_expand_diff.png
+2025-09-30 15:18:34 [INFO] opencv_hist_gray | in_shape=(864, 1536) in_dtype=uint8
+2025-09-30 15:18:34 [INFO] opencv_hist_bgr | in_shape=(864, 1536, 3) in_dtype=uint8
+2025-09-30 15:19:13 [INFO] 전체 처리 이미지: 4장
+2025-09-30 15:19:13 [INFO] read_image | out_shape=(356, 616, 3) out_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/input/samples/bus.jpg
+2025-09-30 15:19:13 [INFO] opencv_grayscale | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8
+2025-09-30 15:19:13 [INFO] numpy_grayscale | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__gray.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__gray_np.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__gray_diff.png
+2025-09-30 15:19:13 [INFO] opencv_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=64
+2025-09-30 15:19:13 [INFO] numpy_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=64
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__th_64.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__th_64_np.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__th_64_diff.png
+2025-09-30 15:19:13 [INFO] opencv_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=128
+2025-09-30 15:19:13 [INFO] numpy_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=128
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__th_128.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__th_128_np.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__th_128_diff.png
+2025-09-30 15:19:13 [INFO] opencv_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=200
+2025-09-30 15:19:13 [INFO] numpy_threshold | in_shape=(356, 616) in_dtype=uint8 | out_shape=(356, 616) out_dtype=uint8 | t=200
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__th_200.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__th_200_np.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(356, 616) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__th_200_diff.png
+2025-09-30 15:19:13 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(712, 1232, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=nearest
+2025-09-30 15:19:13 [INFO] numpy_resize_nearest | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(712, 1232, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_2.0x2.0_nearest.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_2.0x2.0_nearest_np.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_2.0x2.0_nearest_diff.png
+2025-09-30 15:19:13 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(712, 1232, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=linear
+2025-09-30 15:19:13 [INFO] numpy_resize_bilinear | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(712, 1232, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_2.0x2.0_linear.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_2.0x2.0_bilinear_np.png
+2025-09-30 15:19:13 [INFO] save_image | in_shape=(712, 1232, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_2.0x2.0_linear_vs_bilinear_diff.png
+2025-09-30 15:19:13 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(1068, 1848, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=nearest
+2025-09-30 15:19:14 [INFO] numpy_resize_nearest | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(1068, 1848, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_3.0x3.0_nearest.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_3.0x3.0_nearest_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_3.0x3.0_nearest_diff.png
+2025-09-30 15:19:14 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(1068, 1848, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=linear
+2025-09-30 15:19:14 [INFO] numpy_resize_bilinear | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(1068, 1848, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_3.0x3.0_linear.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_3.0x3.0_bilinear_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(1068, 1848, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_3.0x3.0_linear_vs_bilinear_diff.png
+2025-09-30 15:19:14 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(534, 924, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=nearest
+2025-09-30 15:19:14 [INFO] numpy_resize_nearest | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(534, 924, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_1.5x1.5_nearest.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_1.5x1.5_nearest_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_1.5x1.5_nearest_diff.png
+2025-09-30 15:19:14 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(534, 924, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=linear
+2025-09-30 15:19:14 [INFO] numpy_resize_bilinear | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(534, 924, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_1.5x1.5_linear.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_1.5x1.5_bilinear_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(534, 924, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_1.5x1.5_linear_vs_bilinear_diff.png
+2025-09-30 15:19:14 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(267, 462, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=nearest
+2025-09-30 15:19:14 [INFO] numpy_resize_nearest | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(267, 462, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_0.75x0.75_nearest.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_0.75x0.75_nearest_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_0.75x0.75_nearest_diff.png
+2025-09-30 15:19:14 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(267, 462, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=linear
+2025-09-30 15:19:14 [INFO] numpy_resize_bilinear | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(267, 462, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_0.75x0.75_linear.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__resize_0.75x0.75_bilinear_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__resize_0.75x0.75_linear_vs_bilinear_diff.png
+2025-09-30 15:19:14 [INFO] opencv_resize | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(267, 462, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=area
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(267, 462, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__resize_0.75x0.75_area.png
+2025-09-30 15:19:14 [INFO] opencv_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | code=0
+2025-09-30 15:19:14 [INFO] numpy_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | axis=0
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__flip_0.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__flip_0_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__flip_0_diff.png
+2025-09-30 15:19:14 [INFO] opencv_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | code=1
+2025-09-30 15:19:14 [INFO] numpy_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | axis=1
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__flip_1.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__flip_1_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__flip_1_diff.png
+2025-09-30 15:19:14 [INFO] opencv_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | code=-1
+2025-09-30 15:19:14 [INFO] numpy_flip | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | axis=-1
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__flip_-1.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__flip_-1_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__flip_-1_diff.png
+2025-09-30 15:19:14 [INFO] opencv_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(616, 356, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:19:14 [INFO] numpy_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(616, 356, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot90.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot90_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot90_diff.png
+2025-09-30 15:19:14 [INFO] opencv_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:19:14 [INFO] numpy_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot180.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot180_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot180_diff.png
+2025-09-30 15:19:14 [INFO] opencv_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(616, 356, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:19:14 [INFO] numpy_rotate_multiples | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(616, 356, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot270.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot270_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(616, 356, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot270_diff.png
+2025-09-30 15:19:14 [INFO] opencv_rotate_fixed | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=linear
+2025-09-30 15:19:14 [INFO] numpy_rotate_fixed | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=bilinear
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot33_fixed_linear.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot33_fixed_bilinear_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot33_fixed_diff.png
+2025-09-30 15:19:14 [INFO] opencv_rotate_expand | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(635, 711, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=linear
+2025-09-30 15:19:14 [INFO] numpy_rotate_expand | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(635, 711, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=bilinear
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(635, 711, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot33_expand_linear.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(635, 711, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot33_expand_bilinear_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(635, 711, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot33_expand_diff.png
+2025-09-30 15:19:14 [INFO] opencv_rotate_fixed | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=linear
+2025-09-30 15:19:14 [INFO] numpy_rotate_fixed | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(356, 616, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=bilinear
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot-30_fixed_linear.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot-30_fixed_bilinear_np.png
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(356, 616, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot-30_fixed_diff.png
+2025-09-30 15:19:14 [INFO] opencv_rotate_expand | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(617, 712, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=linear
+2025-09-30 15:19:14 [INFO] numpy_rotate_expand | in_shape=(356, 616, 3) in_dtype=uint8 | out_shape=(617, 712, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=bilinear
+2025-09-30 15:19:14 [INFO] save_image | in_shape=(617, 712, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/bus__rot-30_expand_linear.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(617, 712, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/bus__rot-30_expand_bilinear_np.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(617, 712, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/bus__rot-30_expand_diff.png
+2025-09-30 15:19:15 [INFO] opencv_hist_gray | in_shape=(356, 616) in_dtype=uint8
+2025-09-30 15:19:15 [INFO] opencv_hist_bgr | in_shape=(356, 616, 3) in_dtype=uint8
+2025-09-30 15:19:15 [INFO] read_image | out_shape=(384, 601, 3) out_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/input/samples/soccer.jpg
+2025-09-30 15:19:15 [INFO] opencv_grayscale | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8
+2025-09-30 15:19:15 [INFO] numpy_grayscale | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__gray.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__gray_np.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__gray_diff.png
+2025-09-30 15:19:15 [INFO] opencv_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=64
+2025-09-30 15:19:15 [INFO] numpy_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=64
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__th_64.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__th_64_np.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__th_64_diff.png
+2025-09-30 15:19:15 [INFO] opencv_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=128
+2025-09-30 15:19:15 [INFO] numpy_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=128
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__th_128.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__th_128_np.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__th_128_diff.png
+2025-09-30 15:19:15 [INFO] opencv_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=200
+2025-09-30 15:19:15 [INFO] numpy_threshold | in_shape=(384, 601) in_dtype=uint8 | out_shape=(384, 601) out_dtype=uint8 | t=200
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__th_200.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__th_200_np.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(384, 601) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__th_200_diff.png
+2025-09-30 15:19:15 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(768, 1202, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=nearest
+2025-09-30 15:19:15 [INFO] numpy_resize_nearest | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(768, 1202, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_2.0x2.0_nearest.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_2.0x2.0_nearest_np.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_2.0x2.0_nearest_diff.png
+2025-09-30 15:19:15 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(768, 1202, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=linear
+2025-09-30 15:19:15 [INFO] numpy_resize_bilinear | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(768, 1202, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_2.0x2.0_linear.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_2.0x2.0_bilinear_np.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(768, 1202, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_2.0x2.0_linear_vs_bilinear_diff.png
+2025-09-30 15:19:15 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(1152, 1803, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=nearest
+2025-09-30 15:19:15 [INFO] numpy_resize_nearest | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(1152, 1803, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_3.0x3.0_nearest.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_3.0x3.0_nearest_np.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_3.0x3.0_nearest_diff.png
+2025-09-30 15:19:15 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(1152, 1803, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=linear
+2025-09-30 15:19:15 [INFO] numpy_resize_bilinear | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(1152, 1803, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_3.0x3.0_linear.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_3.0x3.0_bilinear_np.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(1152, 1803, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_3.0x3.0_linear_vs_bilinear_diff.png
+2025-09-30 15:19:15 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(576, 902, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=nearest
+2025-09-30 15:19:15 [INFO] numpy_resize_nearest | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(576, 902, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_1.5x1.5_nearest.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_1.5x1.5_nearest_np.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_1.5x1.5_nearest_diff.png
+2025-09-30 15:19:15 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(576, 902, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=linear
+2025-09-30 15:19:15 [INFO] numpy_resize_bilinear | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(576, 902, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_1.5x1.5_linear.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_1.5x1.5_bilinear_np.png
+2025-09-30 15:19:15 [INFO] save_image | in_shape=(576, 902, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_1.5x1.5_linear_vs_bilinear_diff.png
+2025-09-30 15:19:16 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(288, 451, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=nearest
+2025-09-30 15:19:16 [INFO] numpy_resize_nearest | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(288, 451, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_0.75x0.75_nearest.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_0.75x0.75_nearest_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_0.75x0.75_nearest_diff.png
+2025-09-30 15:19:16 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(288, 451, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=linear
+2025-09-30 15:19:16 [INFO] numpy_resize_bilinear | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(288, 451, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_0.75x0.75_linear.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__resize_0.75x0.75_bilinear_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__resize_0.75x0.75_linear_vs_bilinear_diff.png
+2025-09-30 15:19:16 [INFO] opencv_resize | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(288, 451, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=area
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(288, 451, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__resize_0.75x0.75_area.png
+2025-09-30 15:19:16 [INFO] opencv_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | code=0
+2025-09-30 15:19:16 [INFO] numpy_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | axis=0
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__flip_0.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__flip_0_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__flip_0_diff.png
+2025-09-30 15:19:16 [INFO] opencv_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | code=1
+2025-09-30 15:19:16 [INFO] numpy_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | axis=1
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__flip_1.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__flip_1_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__flip_1_diff.png
+2025-09-30 15:19:16 [INFO] opencv_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | code=-1
+2025-09-30 15:19:16 [INFO] numpy_flip | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | axis=-1
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__flip_-1.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__flip_-1_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__flip_-1_diff.png
+2025-09-30 15:19:16 [INFO] opencv_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(601, 384, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:19:16 [INFO] numpy_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(601, 384, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot90.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot90_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot90_diff.png
+2025-09-30 15:19:16 [INFO] opencv_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:19:16 [INFO] numpy_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot180.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot180_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot180_diff.png
+2025-09-30 15:19:16 [INFO] opencv_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(601, 384, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:19:16 [INFO] numpy_rotate_multiples | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(601, 384, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot270.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot270_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(601, 384, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot270_diff.png
+2025-09-30 15:19:16 [INFO] opencv_rotate_fixed | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=linear
+2025-09-30 15:19:16 [INFO] numpy_rotate_fixed | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=bilinear
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot33_fixed_linear.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot33_fixed_bilinear_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot33_fixed_diff.png
+2025-09-30 15:19:16 [INFO] opencv_rotate_expand | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(650, 714, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=linear
+2025-09-30 15:19:16 [INFO] numpy_rotate_expand | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(650, 714, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=bilinear
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(650, 714, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot33_expand_linear.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(650, 714, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot33_expand_bilinear_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(650, 714, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot33_expand_diff.png
+2025-09-30 15:19:16 [INFO] opencv_rotate_fixed | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=linear
+2025-09-30 15:19:16 [INFO] numpy_rotate_fixed | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(384, 601, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=bilinear
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot-30_fixed_linear.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot-30_fixed_bilinear_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(384, 601, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot-30_fixed_diff.png
+2025-09-30 15:19:16 [INFO] opencv_rotate_expand | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(634, 713, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=linear
+2025-09-30 15:19:16 [INFO] numpy_rotate_expand | in_shape=(384, 601, 3) in_dtype=uint8 | out_shape=(634, 713, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=bilinear
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(634, 713, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partA/soccer__rot-30_expand_linear.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(634, 713, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partB_numpy/soccer__rot-30_expand_bilinear_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(634, 713, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/comparisons/soccer__rot-30_expand_diff.png
+2025-09-30 15:19:16 [INFO] opencv_hist_gray | in_shape=(384, 601) in_dtype=uint8
+2025-09-30 15:19:16 [INFO] opencv_hist_bgr | in_shape=(384, 601, 3) in_dtype=uint8
+2025-09-30 15:19:16 [INFO] read_image | out_shape=(731, 1300, 3) out_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/input/personal/image1.png
+2025-09-30 15:19:16 [INFO] opencv_grayscale | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8
+2025-09-30 15:19:16 [INFO] numpy_grayscale | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__gray.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__gray_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__gray_diff.png
+2025-09-30 15:19:16 [INFO] opencv_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=64
+2025-09-30 15:19:16 [INFO] numpy_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=64
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__th_64.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__th_64_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__th_64_diff.png
+2025-09-30 15:19:16 [INFO] opencv_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=128
+2025-09-30 15:19:16 [INFO] numpy_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=128
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__th_128.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__th_128_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__th_128_diff.png
+2025-09-30 15:19:16 [INFO] opencv_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=200
+2025-09-30 15:19:16 [INFO] numpy_threshold | in_shape=(731, 1300) in_dtype=uint8 | out_shape=(731, 1300) out_dtype=uint8 | t=200
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__th_200.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__th_200_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(731, 1300) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__th_200_diff.png
+2025-09-30 15:19:16 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1462, 2600, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=nearest
+2025-09-30 15:19:16 [INFO] numpy_resize_nearest | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1462, 2600, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_2.0x2.0_nearest.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_2.0x2.0_nearest_np.png
+2025-09-30 15:19:16 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_2.0x2.0_nearest_diff.png
+2025-09-30 15:19:16 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1462, 2600, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=linear
+2025-09-30 15:19:17 [INFO] numpy_resize_bilinear | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1462, 2600, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:19:17 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_2.0x2.0_linear.png
+2025-09-30 15:19:17 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_2.0x2.0_bilinear_np.png
+2025-09-30 15:19:17 [INFO] save_image | in_shape=(1462, 2600, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_2.0x2.0_linear_vs_bilinear_diff.png
+2025-09-30 15:19:17 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(2193, 3900, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=nearest
+2025-09-30 15:19:17 [INFO] numpy_resize_nearest | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(2193, 3900, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:19:17 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_3.0x3.0_nearest.png
+2025-09-30 15:19:17 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_3.0x3.0_nearest_np.png
+2025-09-30 15:19:18 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_3.0x3.0_nearest_diff.png
+2025-09-30 15:19:18 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(2193, 3900, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=linear
+2025-09-30 15:19:19 [INFO] numpy_resize_bilinear | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(2193, 3900, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:19:19 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_3.0x3.0_linear.png
+2025-09-30 15:19:19 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_3.0x3.0_bilinear_np.png
+2025-09-30 15:19:19 [INFO] save_image | in_shape=(2193, 3900, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_3.0x3.0_linear_vs_bilinear_diff.png
+2025-09-30 15:19:19 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1096, 1950, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=nearest
+2025-09-30 15:19:19 [INFO] numpy_resize_nearest | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1096, 1950, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:19:19 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_1.5x1.5_nearest.png
+2025-09-30 15:19:19 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_1.5x1.5_nearest_np.png
+2025-09-30 15:19:19 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_1.5x1.5_nearest_diff.png
+2025-09-30 15:19:19 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1096, 1950, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=linear
+2025-09-30 15:19:20 [INFO] numpy_resize_bilinear | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1096, 1950, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_1.5x1.5_linear.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_1.5x1.5_bilinear_np.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(1096, 1950, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_1.5x1.5_linear_vs_bilinear_diff.png
+2025-09-30 15:19:20 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(548, 975, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=nearest
+2025-09-30 15:19:20 [INFO] numpy_resize_nearest | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(548, 975, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_0.75x0.75_nearest.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_0.75x0.75_nearest_np.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_0.75x0.75_nearest_diff.png
+2025-09-30 15:19:20 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(548, 975, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=linear
+2025-09-30 15:19:20 [INFO] numpy_resize_bilinear | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(548, 975, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_0.75x0.75_linear.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__resize_0.75x0.75_bilinear_np.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__resize_0.75x0.75_linear_vs_bilinear_diff.png
+2025-09-30 15:19:20 [INFO] opencv_resize | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(548, 975, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=area
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(548, 975, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__resize_0.75x0.75_area.png
+2025-09-30 15:19:20 [INFO] opencv_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | code=0
+2025-09-30 15:19:20 [INFO] numpy_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | axis=0
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__flip_0.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__flip_0_np.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__flip_0_diff.png
+2025-09-30 15:19:20 [INFO] opencv_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | code=1
+2025-09-30 15:19:20 [INFO] numpy_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | axis=1
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__flip_1.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__flip_1_np.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__flip_1_diff.png
+2025-09-30 15:19:20 [INFO] opencv_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | code=-1
+2025-09-30 15:19:20 [INFO] numpy_flip | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | axis=-1
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__flip_-1.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__flip_-1_np.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__flip_-1_diff.png
+2025-09-30 15:19:20 [INFO] opencv_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1300, 731, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:19:20 [INFO] numpy_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1300, 731, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot90.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot90_np.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot90_diff.png
+2025-09-30 15:19:20 [INFO] opencv_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:19:20 [INFO] numpy_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot180.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot180_np.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot180_diff.png
+2025-09-30 15:19:20 [INFO] opencv_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1300, 731, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:19:20 [INFO] numpy_rotate_multiples | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1300, 731, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot270.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot270_np.png
+2025-09-30 15:19:20 [INFO] save_image | in_shape=(1300, 731, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot270_diff.png
+2025-09-30 15:19:20 [INFO] opencv_rotate_fixed | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=linear
+2025-09-30 15:19:21 [INFO] numpy_rotate_fixed | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=bilinear
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot33_fixed_linear.png
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot33_fixed_bilinear_np.png
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot33_fixed_diff.png
+2025-09-30 15:19:21 [INFO] opencv_rotate_expand | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1322, 1489, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=linear
+2025-09-30 15:19:21 [INFO] numpy_rotate_expand | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1322, 1489, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=bilinear
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(1322, 1489, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot33_expand_linear.png
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(1322, 1489, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot33_expand_bilinear_np.png
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(1322, 1489, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot33_expand_diff.png
+2025-09-30 15:19:21 [INFO] opencv_rotate_fixed | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=linear
+2025-09-30 15:19:21 [INFO] numpy_rotate_fixed | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(731, 1300, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=bilinear
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot-30_fixed_linear.png
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot-30_fixed_bilinear_np.png
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(731, 1300, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot-30_fixed_diff.png
+2025-09-30 15:19:21 [INFO] opencv_rotate_expand | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1284, 1492, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=linear
+2025-09-30 15:19:21 [INFO] numpy_rotate_expand | in_shape=(731, 1300, 3) in_dtype=uint8 | out_shape=(1284, 1492, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=bilinear
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(1284, 1492, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image1__rot-30_expand_linear.png
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(1284, 1492, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image1__rot-30_expand_bilinear_np.png
+2025-09-30 15:19:21 [INFO] save_image | in_shape=(1284, 1492, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image1__rot-30_expand_diff.png
+2025-09-30 15:19:21 [INFO] opencv_hist_gray | in_shape=(731, 1300) in_dtype=uint8
+2025-09-30 15:19:22 [INFO] opencv_hist_bgr | in_shape=(731, 1300, 3) in_dtype=uint8
+2025-09-30 15:19:22 [INFO] read_image | out_shape=(864, 1536, 3) out_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/input/personal/image2.png
+2025-09-30 15:19:22 [INFO] opencv_grayscale | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8
+2025-09-30 15:19:22 [INFO] numpy_grayscale | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__gray.png
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__gray_np.png
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__gray_diff.png
+2025-09-30 15:19:22 [INFO] opencv_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=64
+2025-09-30 15:19:22 [INFO] numpy_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=64
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__th_64.png
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__th_64_np.png
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__th_64_diff.png
+2025-09-30 15:19:22 [INFO] opencv_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=128
+2025-09-30 15:19:22 [INFO] numpy_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=128
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__th_128.png
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__th_128_np.png
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__th_128_diff.png
+2025-09-30 15:19:22 [INFO] opencv_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=200
+2025-09-30 15:19:22 [INFO] numpy_threshold | in_shape=(864, 1536) in_dtype=uint8 | out_shape=(864, 1536) out_dtype=uint8 | t=200
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__th_200.png
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__th_200_np.png
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(864, 1536) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__th_200_diff.png
+2025-09-30 15:19:22 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1728, 3072, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=nearest
+2025-09-30 15:19:22 [INFO] numpy_resize_nearest | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1728, 3072, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_2.0x2.0_nearest.png
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_2.0x2.0_nearest_np.png
+2025-09-30 15:19:22 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_2.0x2.0_nearest_diff.png
+2025-09-30 15:19:22 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1728, 3072, 3) out_dtype=uint8 | fx=2.0 | fy=2.0 | method=linear
+2025-09-30 15:19:22 [INFO] numpy_resize_bilinear | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1728, 3072, 3) out_dtype=uint8 | fx=2.0 | fy=2.0
+2025-09-30 15:19:23 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_2.0x2.0_linear.png
+2025-09-30 15:19:23 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_2.0x2.0_bilinear_np.png
+2025-09-30 15:19:23 [INFO] save_image | in_shape=(1728, 3072, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_2.0x2.0_linear_vs_bilinear_diff.png
+2025-09-30 15:19:23 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(2592, 4608, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=nearest
+2025-09-30 15:19:23 [INFO] numpy_resize_nearest | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(2592, 4608, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:19:23 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_3.0x3.0_nearest.png
+2025-09-30 15:19:23 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_3.0x3.0_nearest_np.png
+2025-09-30 15:19:23 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_3.0x3.0_nearest_diff.png
+2025-09-30 15:19:23 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(2592, 4608, 3) out_dtype=uint8 | fx=3.0 | fy=3.0 | method=linear
+2025-09-30 15:19:25 [INFO] numpy_resize_bilinear | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(2592, 4608, 3) out_dtype=uint8 | fx=3.0 | fy=3.0
+2025-09-30 15:19:25 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_3.0x3.0_linear.png
+2025-09-30 15:19:25 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_3.0x3.0_bilinear_np.png
+2025-09-30 15:19:25 [INFO] save_image | in_shape=(2592, 4608, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_3.0x3.0_linear_vs_bilinear_diff.png
+2025-09-30 15:19:25 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1296, 2304, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=nearest
+2025-09-30 15:19:25 [INFO] numpy_resize_nearest | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1296, 2304, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:19:25 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_1.5x1.5_nearest.png
+2025-09-30 15:19:25 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_1.5x1.5_nearest_np.png
+2025-09-30 15:19:25 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_1.5x1.5_nearest_diff.png
+2025-09-30 15:19:25 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1296, 2304, 3) out_dtype=uint8 | fx=1.5 | fy=1.5 | method=linear
+2025-09-30 15:19:26 [INFO] numpy_resize_bilinear | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1296, 2304, 3) out_dtype=uint8 | fx=1.5 | fy=1.5
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_1.5x1.5_linear.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_1.5x1.5_bilinear_np.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(1296, 2304, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_1.5x1.5_linear_vs_bilinear_diff.png
+2025-09-30 15:19:26 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(648, 1152, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=nearest
+2025-09-30 15:19:26 [INFO] numpy_resize_nearest | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(648, 1152, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_0.75x0.75_nearest.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_0.75x0.75_nearest_np.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_0.75x0.75_nearest_diff.png
+2025-09-30 15:19:26 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(648, 1152, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=linear
+2025-09-30 15:19:26 [INFO] numpy_resize_bilinear | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(648, 1152, 3) out_dtype=uint8 | fx=0.75 | fy=0.75
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_0.75x0.75_linear.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__resize_0.75x0.75_bilinear_np.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__resize_0.75x0.75_linear_vs_bilinear_diff.png
+2025-09-30 15:19:26 [INFO] opencv_resize | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(648, 1152, 3) out_dtype=uint8 | fx=0.75 | fy=0.75 | method=area
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(648, 1152, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__resize_0.75x0.75_area.png
+2025-09-30 15:19:26 [INFO] opencv_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | code=0
+2025-09-30 15:19:26 [INFO] numpy_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | axis=0
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__flip_0.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__flip_0_np.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__flip_0_diff.png
+2025-09-30 15:19:26 [INFO] opencv_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | code=1
+2025-09-30 15:19:26 [INFO] numpy_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | axis=1
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__flip_1.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__flip_1_np.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__flip_1_diff.png
+2025-09-30 15:19:26 [INFO] opencv_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | code=-1
+2025-09-30 15:19:26 [INFO] numpy_flip | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | axis=-1
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__flip_-1.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__flip_-1_np.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__flip_-1_diff.png
+2025-09-30 15:19:26 [INFO] opencv_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1536, 864, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:19:26 [INFO] numpy_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1536, 864, 3) out_dtype=uint8 | deg=90
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot90.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot90_np.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot90_diff.png
+2025-09-30 15:19:26 [INFO] opencv_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:19:26 [INFO] numpy_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=180
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot180.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot180_np.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot180_diff.png
+2025-09-30 15:19:26 [INFO] opencv_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1536, 864, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:19:26 [INFO] numpy_rotate_multiples | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1536, 864, 3) out_dtype=uint8 | deg=270
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot270.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot270_np.png
+2025-09-30 15:19:26 [INFO] save_image | in_shape=(1536, 864, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot270_diff.png
+2025-09-30 15:19:26 [INFO] opencv_rotate_fixed | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=linear
+2025-09-30 15:19:27 [INFO] numpy_rotate_fixed | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=33.0 | expand=False | method=bilinear
+2025-09-30 15:19:27 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot33_fixed_linear.png
+2025-09-30 15:19:27 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot33_fixed_bilinear_np.png
+2025-09-30 15:19:27 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot33_fixed_diff.png
+2025-09-30 15:19:27 [INFO] opencv_rotate_expand | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1562, 1759, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=linear
+2025-09-30 15:19:27 [INFO] numpy_rotate_expand | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1562, 1759, 3) out_dtype=uint8 | deg=33.0 | expand=True | method=bilinear
+2025-09-30 15:19:27 [INFO] save_image | in_shape=(1562, 1759, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot33_expand_linear.png
+2025-09-30 15:19:27 [INFO] save_image | in_shape=(1562, 1759, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot33_expand_bilinear_np.png
+2025-09-30 15:19:27 [INFO] save_image | in_shape=(1562, 1759, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot33_expand_diff.png
+2025-09-30 15:19:27 [INFO] opencv_rotate_fixed | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=linear
+2025-09-30 15:19:27 [INFO] numpy_rotate_fixed | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(864, 1536, 3) out_dtype=uint8 | deg=-30.0 | expand=False | method=bilinear
+2025-09-30 15:19:27 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot-30_fixed_linear.png
+2025-09-30 15:19:27 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot-30_fixed_bilinear_np.png
+2025-09-30 15:19:27 [INFO] save_image | in_shape=(864, 1536, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot-30_fixed_diff.png
+2025-09-30 15:19:27 [INFO] opencv_rotate_expand | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1517, 1763, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=linear
+2025-09-30 15:19:27 [INFO] numpy_rotate_expand | in_shape=(864, 1536, 3) in_dtype=uint8 | out_shape=(1517, 1763, 3) out_dtype=uint8 | deg=-30.0 | expand=True | method=bilinear
+2025-09-30 15:19:27 [INFO] save_image | in_shape=(1517, 1763, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partA/image2__rot-30_expand_linear.png
+2025-09-30 15:19:27 [INFO] save_image | in_shape=(1517, 1763, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/partB_numpy/image2__rot-30_expand_bilinear_np.png
+2025-09-30 15:19:28 [INFO] save_image | in_shape=(1517, 1763, 3) in_dtype=uint8 | path=/Users/sonchansoo/Desktop/cv_lab1/lab01/output/partC/comparisons/image2__rot-30_expand_diff.png
+2025-09-30 15:19:28 [INFO] opencv_hist_gray | in_shape=(864, 1536) in_dtype=uint8
+2025-09-30 15:19:28 [INFO] opencv_hist_bgr | in_shape=(864, 1536, 3) in_dtype=uint8
